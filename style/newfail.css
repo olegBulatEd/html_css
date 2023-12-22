@@ -1,0 +1,72 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--white: white;
+}
+body {
+	height: 100vh;
+	width: 100vh;
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M919.985%2c31.3C937.553%2c30.637%2c951.82%2c18.299%2c960.091%2c2.785C967.845%2c-11.759%2c968.133%2c-29.138%2c959.781%2c-43.347C951.54%2c-57.368%2c936.226%2c-64.581%2c919.985%2c-65.451C901.792%2c-66.425%2c881.869%2c-63.393%2c872.052%2c-48.045C861.634%2c-31.758%2c864.268%2c-10.523%2c874.265%2c6.026C883.916%2c22.001%2c901.334%2c32.004%2c919.985%2c31.3' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1494.427%2c593.842C1544.905%2c591.763%2c1586.054%2c557.91%2c1611.204%2c514.094C1636.226%2c470.501%2c1645.253%2c417.627%2c1620.768%2c373.73C1595.715%2c328.816%2c1545.809%2c306.944%2c1494.427%2c304.737C1438.233%2c302.323%2c1377.177%2c314.053%2c1347.776%2c362.003C1317.357%2c411.614%2c1328.595%2c475.273%2c1359.705%2c524.454C1388.647%2c570.209%2c1440.333%2c596.07%2c1494.427%2c593.842' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1190.215%2c340.054C1217.395%2c338.988%2c1241.867%2c324.115%2c1255.221%2c300.418C1268.332%2c277.153%2c1267.34%2c249.181%2c1254.674%2c225.671C1241.264%2c200.779%2c1218.447%2c181.317%2c1190.215%2c179.753C1159.217%2c178.036%2c1127.862%2c191.04%2c1112.076%2c217.773C1096.055%2c244.904%2c1098.766%2c279.34%2c1115.732%2c305.89C1131.496%2c330.559%2c1160.962%2c341.202%2c1190.215%2c340.054' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M300.6416724111206 80.04955663265005L234.5699261333977-25.687340329629464 128.83302917111817 40.38440594809347 194.90477544884112 146.121302910373z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1353.1196904723686 404.10456149534326L1407.8810123102446 474.1958571495647 1423.21098612659 349.3432396574672z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M959.799%2c314.226C987.599%2c311.888%2c1006.657%2c288.329%2c1019.007%2c263.313C1029.779%2c241.494%2c1029.251%2c217.063%2c1018.558%2c195.205C1006.143%2c169.828%2c988.046%2c142.789%2c959.799%2c142.288C931.042%2c141.778%2c912.088%2c168.376%2c897.319%2c193.057C881.975%2c218.699%2c866.707%2c248.41%2c880.402%2c274.969C894.905%2c303.094%2c928.266%2c316.878%2c959.799%2c314.226' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+}
+
+/* h2 {
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	font-size: 2.5rem;
+	transform: translate(-50%, -50%);
+	color: rgb(212, 236, 228);
+} */
+/* .string {
+	position: absolute;
+	color: white;
+	top: 14px;
+	left: 15px;
+	display: flex;
+	justify-content: space-between;
+} */
+.title {
+	align-items: center;
+	margin-top: 35%;
+	margin-left: 50%;
+	color: #fff;
+}
+.title h2 {
+	font-size: 2rem;
+	margin-bottom: 10px;
+}
+
+.title h2 span {
+	color: red;
+}
+
+.title p {
+	margin-bottom: 50px;
+}
+.container {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 1100px;
+	gap: 15px;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+.container .box {
+	position: relative;
+	width: 250px;
+	height: 180px;
+	background: #fff;
+}
+
+.container .box img {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+}

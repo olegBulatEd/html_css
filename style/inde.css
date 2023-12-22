@@ -1,0 +1,76 @@
+/* * {
+	padding: 0;
+	margin: 0;
+}
+span {
+	background-color: aqua;
+	width: 50px;
+	margin: 15px;
+	margin-top: 10px;
+}
+.numbers {
+	width: 200px;
+	justify-content: center;
+	display: flex;
+	margin: 13px;
+	padding: 23px;
+}
+.adress,
+.newString {
+	display: flex;
+	width: 35px;
+	justify-content: center;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+p {
+	width: 135px;
+	background-color: rgb(241, 223, 223);
+	margin-top: 0px;
+	margin-bottom: 5px;
+
+	text-align: center;
+	justify-content: center;
+}
+.plus,
+.munus,
+.delite,
+.mnoj {
+	width: 45px;
+	border: 23px;
+	border-radius: 45px;
+}
+.button :hover {
+	flex: content;
+	color: rgb(199, 14, 14);
+	background-color: rgb(200, 154, 243);
+}
+
+.mnoj {
+	color: rgb(60, 91, 92);
+	background-color: cornflowerblue;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+.delite {
+	color: rgb(60, 91, 92);
+	background-color: rgb(73, 160, 42);
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+.munus {
+	color: rgb(60, 91, 92);
+	background-color: rgb(138, 99, 126);
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+.plus {
+	color: rgb(60, 91, 92);
+	background-color: rgb(121, 219, 183);
+	display: flex;
+	text-align: center;
+	justify-content: center;
+} */
